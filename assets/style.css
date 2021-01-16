@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+    font-family: "Montserrat", sans-serif;
+    outline: none;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+menu input{
+    width: 400px;
+    margin-bottom: 15px;
+}
+
+menu{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+main{
+    width: 400px;
+    height: 450px;
+    display: grid;  
+    text-align: center;
+}
+
+.city , .temp , .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px black;
+    transition: background 2s;
+}
+
+.city{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(75, 192, 172);
+}
+
+.city:hover{
+    background-color: rgb(17, 240, 203);
+}
+
+.temp{
+    background-color: rgb(53, 163, 214);
+}
+
+.temp:hover{
+    background-color: rgb(0, 192, 192);
+}
+
+.icon{
+   background-color: rgb(61, 141, 161);
+}
+
+.icon:hover{
+    background-color: rgb(98, 147, 160);
+}
+
+.chng{
+    border:none;
+    cursor: pointer;
+    background-color: rgb(92, 128, 194);
+    transition: background 2s;
+}
+
+.chng:hover{
+    border:none;
+    cursor: pointer;
+    background-color:rgb(132, 165, 226);
+}
+
+.btn{
+    border:none;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    transition: background 2s;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn:hover{
+    border:none;
+    cursor: pointer;
+    background-color:rgb(63, 129, 251);
+}
+
+.add{
+    border:none;
+    cursor: pointer;
+    background-color: rgb(91, 170, 180);
+    transition: background 2s;
+}
+
+.add:hover{
+    border:none;
+    cursor: pointer;
+    background-color: rgb(47, 195, 214);
+}
+
