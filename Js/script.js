@@ -4,6 +4,7 @@ let add = document.getElementById('add')
 let chosen = document.getElementById('chosen')
 
 let count = true
+const favorites = []
 
 chosen.onchange = () => {
     let city = document.getElementById('getCity')
@@ -17,7 +18,10 @@ add.onclick = () => {
     var value = document.getElementById('getCity').value;
 
     var newOption = new Option(text, value);
-    chosen.options[chosen.options.length]=newOption;
+    if(!favorites.includes(text) && text != ''){
+        favorites.push(text)
+        chosen.options[chosen.options.length]=newOption;
+    }
 }
 
 btn.onclick = () => {
