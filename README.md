@@ -4,4 +4,4 @@
 По ссылке оно работать не будет из за http в коде. Вы можете скачать его и протестировать.
 The link won't work because of the http in the code. You can download and test.
 
-https://nikki256.github.io/WeatherAppJs/
+https://weather-app-js-beta.vercel.app/
