@@ -27,7 +27,7 @@ add.onclick = () => {
 btn.onclick = () => {
     let city = document.getElementById('getCity').value
 
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=c5ebacb75f4fe7205f532ee7f9cc0fdf`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=c5ebacb75f4fe7205f532ee7f9cc0fdf`)
     .then((resp) => {
         return resp.json()
     })
